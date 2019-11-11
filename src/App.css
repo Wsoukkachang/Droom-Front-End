@@ -90,6 +90,7 @@ a {
   padding: 0px 0px;
   margin: 0px auto;
   background: linear-gradient(to bottom,#50BDE4, lightgrey);
+  min-height: 80vh;
 }
 
 .homeHeader {
@@ -127,6 +128,7 @@ a {
   padding: 50px 0px;
   margin: 0px auto;
   background: linear-gradient(to bottom,#50BDE4, lightgrey);
+  min-height: 80vh;
 }
 
 .aboutContainer h1 {
@@ -148,6 +150,7 @@ a {
   padding: 50px 0px;
   margin: 0px auto;
   background: linear-gradient(to bottom,#50BDE4, lightgrey);
+  min-height: 80vh;
 }
 
 .loginContainer {
@@ -158,6 +161,7 @@ a {
   padding: 50px 0px;
   margin: 0px auto;
   background: linear-gradient(to bottom,#50BDE4, lightgrey);
+  min-height: 80vh;
 }
 
 .teamContainer {

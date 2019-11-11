@@ -25,8 +25,8 @@ class JobSeekerSignUp extends React.Component {
       e.preventDefault();
       console.log("change seekers");
       this.setState({
-      seekers: {
-         ...this.state.seekers,
+      seeker: {
+         ...this.state.seeker,
          [e.target.name]: e.target.value
       }
    });

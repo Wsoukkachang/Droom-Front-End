@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { NavLink } from 'react-router-dom';
 import { MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } from "mdbreact";
-import droom from '../assets/images/droom.png';
+import droom from '../../assets/images/droom.png';
 
 
 class SideNavBarUICompany extends React.Component {

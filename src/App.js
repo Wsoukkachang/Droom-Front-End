@@ -10,18 +10,18 @@ import Navigation from './components/Navigation';
 import Home from './components/Home';
 import About from './components/About';
 import Register from './components/Register';
-import CompanySignUp from './components/CompanySignUp';
-import JobSeekerSignUp from './components/JobSeekerSignUp';
+import CompanySignUp from './components/Company/CompanySignUp';
+import JobSeekerSignUp from './components/JobSeeker/JobSeekerSignUp';
 import Login from './components/Login';
 import Account from './components/Account';
 import Team from './components/Team';
-import CompanyProfile from './components/CompanyProfile';
-import JobSeekerProfile from './components/JobSeekerProfile';
-import CompanyView from './components/CompanyView';
-import JobSeekerView from './components/JobSeekerView';
+import CompanyProfile from './components/Company/CompanyProfile';
+import JobSeekerProfile from './components/JobSeeker/JobSeekerProfile';
+import CompanyView from './components/Company/CompanyView';
+import JobSeekerView from './components/JobSeeker/JobSeekerView';
 import Messages from './components/Messages';
-import CompanyMatches from './components/CompanyMatches';
-import JobSeekerMatchesMasterContainer from './components/JobSeekerMatchesMasterContainer';
+import CompanyMatches from './components/Company/CompanyMatches';
+import JobSeekerMatchesMasterContainer from './components/JobSeeker/JobSeekerMatchesMasterContainer';
 
 
 

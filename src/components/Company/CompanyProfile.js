@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import { getCompanyById, updateCompany, deleteCompany } from '../actions';
+import { getCompanyById, updateCompany, deleteCompany } from '../../actions';
 import CompanyMatchesMasterContainer from './CompanyMatchesMasterContainer';
 import SideNavBarUICompany from './SideNavBarUICompany';
 import jwt from "jwt-decode";

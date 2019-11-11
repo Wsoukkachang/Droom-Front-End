@@ -2,10 +2,10 @@ import React, { Fragment } from 'react';
 import {connect} from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } from "mdbreact";
-import profileDemoPicture from '../assets/images/profileDemoPicture.png';
+import profileDemoPicture from '../../assets/images/profileDemoPicture.png';
 import JobSeekerMatchesMasterContainer from './JobSeekerMatchesMasterContainer';
 import SideNavBarUIJobSeeker from './SideNavBarUIJobSeeker';
-import { getSeekerById, updateSeeker, deleteSeeker } from '../actions';
+import { getSeekerById, updateSeeker, deleteSeeker } from '../../actions';
 import jwt from "jwt-decode";
 
 

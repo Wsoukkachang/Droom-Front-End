@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { jobseekersignup } from "../actions";
+import { jobseekersignup } from "../../actions";
 import jwt from "jwt-decode";
 
 class JobSeekerSignUp extends React.Component {

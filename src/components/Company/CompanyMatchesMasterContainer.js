@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { Route, NavLink } from 'react-router-dom';
 import { MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } from "mdbreact";
-import droom from '../assets/images/droom.png';
-import Messages from './Messages';
+import droom from '../../assets/images/droom.png';
+import Messages from '../Messages';
 import CompanyMatches from './CompanyMatches';
 
 

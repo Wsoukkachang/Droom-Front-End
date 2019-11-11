@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { companysignup } from '../actions';
+import { companysignup } from '../../actions';
 import jwt from "jwt-decode";
 
 class CompanySignUp extends React.Component {

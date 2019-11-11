@@ -2,15 +2,15 @@ import React, { Fragment } from 'react';
 import {connect} from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } from "mdbreact";
-import droom from '../assets/images/droom.png';
+import droom from '../../assets/images/droom.png';
 import jwt from "jwt-decode";
-import { getCompanyById, getMatchesByCompanyId } from '../actions';
+import { getSeekerById, getMatchesBySeekerId, updateSeeker, deleteSeeker } from '../../actions';
 
-class CompanyMatches extends React.Component {
+class JobSeekerMatches extends React.Component {
     componentDidMount() {
         const id = jwt(localStorage.getItem("token"))
-        this.props.getCompanyById(id.subject);
-        this.props.getMatchesByCompanyId(id.subject);
+        this.props.getSeekerById(id.subject);
+        this.props.getMatchesBySeekerId(id.subject);
     }
     
 
@@ -20,7 +20,7 @@ class CompanyMatches extends React.Component {
     
         return (
         <div className="userMatchesContainer">
-            <h2>Job Seeker Who Matched You</h2>
+            <h2>Companies Who Matched You</h2>
         </div>
         );
     }
@@ -28,10 +28,10 @@ class CompanyMatches extends React.Component {
 
 const mapStateToProps = state => {
     return {
-        companies: state.companies,
+        seekers: state.seekers,
         matches: state.matches,
         addMatchesError: state.addMatchesError 
     }
   }
 
-export default connect(mapStateToProps, { getCompanyById, getMatchesByCompanyId })(CompanyMatches);
+export default connect(mapStateToProps, { getSeekerById, getMatchesBySeekerId })(JobSeekerMatches);
